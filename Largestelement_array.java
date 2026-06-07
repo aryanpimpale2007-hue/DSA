@@ -20,7 +20,8 @@ public class Largestelement_array {
                 max=arr[i];
             }
          }
-         System.out.println(max);
+         System.out.println("Largest: "+max);
+         s.close();
         }
     }
 

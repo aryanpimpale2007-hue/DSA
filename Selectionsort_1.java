@@ -13,13 +13,15 @@ public class Selectionsort_1 {
             arr[i]=s.nextInt();             
             }
 
-        for(int i=0;i<=n-2;i++){
-            int min = i;
-            for(int j=i+1;j<n;j++){
+        for(int i=0;i<=n-2;i++){   //fixes the range to sort for eg. 0 to n-2 , 1 to n-2
+            int min = i;            // assuming
+            for(int j=i+1;j<n;j++){  // traverses through the range
                 if (arr[j]<arr[min]) {
                     min=j;
                 }
             }
+
+            //swapping of elements
             int temp = arr[min];
             arr[min] = arr[i];
             arr[i] = temp;

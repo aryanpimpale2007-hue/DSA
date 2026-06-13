@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Largestelement_array {
@@ -14,12 +13,12 @@ public class Largestelement_array {
             arr[i]=s.nextInt();             
             }
             
-        int max=arr[0];
-        for(int i=1;i<arr.length;i++){
-            if (arr[i]>max) {
-                max=arr[i];
+        int max=arr[0];  //storing 1st element as largest
+        for(int i=1;i<arr.length;i++){         
+            if (arr[i]>max){  //checking each element by comparing it with the first element which is max=arr[0]
+                max=arr[i];   //If arr[i] is greater then value is exchanged
             }
-         }
+        }
          System.out.println("Largest: "+max);
          s.close();
         }

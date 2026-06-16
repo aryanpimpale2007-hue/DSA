@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//This is a better approach
 public class SecondLargest_array {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -28,6 +28,6 @@ public class SecondLargest_array {
         }
 
         System.out.println("Second largest: "+slargest);
-
+        s.close();
     }
 }

@@ -21,5 +21,6 @@ public class Smallestele_array {
         }
 
         System.out.println("Smallest element: "+smallest);
+        s.close();
     }
 }

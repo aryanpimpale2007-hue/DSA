@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 
-class Stack{
+class MyStack{
     int arr[],size,top;
 
-    Stack(int n){
+    MyStack(int n){
         size = n;
         arr = new int[size];
         top = -1;
@@ -65,7 +65,7 @@ public class StackPract {
         System.out.println("Enter the size of stack: ");
         int n = sc.nextInt();
         
-        Stack s = new Stack(n);
+        MyStack s = new MyStack(n);
 
         int choice;
 
